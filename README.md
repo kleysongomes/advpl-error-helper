@@ -2,6 +2,9 @@
 
 Esta extensão do VSCode permite buscar rapidamente soluções para erros ADVPL diretamente no Google e nos fóruns da TOTVS.
 
+<img width="1600" height="851" alt="image" src="https://github.com/user-attachments/assets/9836a041-9b06-41d8-abf8-05f479b40a63" />
+
+
 ## Como usar
 
 1. Selecione um erro no seu código ou terminal.
