@@ -1,0 +1,43 @@
+{
+  "name": "advpl-error-helper",
+  "displayName": "ADVPL Error Helper",
+  "description": "Busca soluções para erros ADVPL nos fóruns da TOTVS e Google.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:advplErrorHelper.searchError"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "advplErrorHelper.searchError",
+        "title": "Buscar Erro (ADVPL/TLPP)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.18.0",
+    "@types/node-fetch": "^2.6.12",
+    "@types/vscode": "^1.88.0",
+    "node-fetch": "^2.6.0",
+    "open": "^9.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "open": "^9.0.0"
+  }
+}
