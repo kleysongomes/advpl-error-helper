@@ -1,37 +1,81 @@
-# ADVPL Error Helper
+# 🚀 ADVPL Error Helper
 
-Esta extensão do VSCode permite buscar rapidamente soluções para erros ADVPL diretamente no Google e nos fóruns da TOTVS.
+Extensão para Visual Studio Code que ajuda desenvolvedores ADVPL a encontrar **soluções rápidas para mensagens de erro**.  
+Com apenas um comando, a extensão sugere onde buscar respostas em fontes confiáveis como:
 
-<img width="1600" height="851" alt="image" src="https://github.com/user-attachments/assets/9836a041-9b06-41d8-abf8-05f479b40a63" />
+- 🔍 Google (com filtro ADVPL)
+- 💬 Fórum TOTVS (forum.totvs.io)
+- 📚 TDN (base de conhecimento TOTVS)
+- 🛠 Zendesk TOTVS Suporte
 
+---
 
-## Como usar
+![preview](https://github.com/user-attachments/assets/9836a041-9b06-41d8-abf8-05f479b40a63)
 
-1. Selecione um erro no seu código ou terminal.
-2. Pressione `Ctrl+Shift+P` e escolha `Buscar Solução ADVPL`.
-3. Duas abas do navegador serão abertas com buscas:
-   - No fórum da TOTVS
-   - No Google com "ADVPL"
+---
 
-## Requisitos
+## ✨ Como usar
+
+1. **Selecione** uma mensagem de erro no seu código ADVPL.
+2. Pressione `Ctrl + Shift + P` e digite: `Buscar Solução ADVPL`
+3. Uma aba lateral será exibida com sugestões de pesquisa.
+4. Clique na fonte desejada e o link abrirá em seu navegador.
+
+---
+
+## 📦 Instalação
+
+Você pode instalar diretamente via VSCode:
+
+```bash
+ext install kleysondev.advpl-error-helper
+```
+
+Ou procurar na aba de extensões por: **ADVPL Error Helper**
+
+---
+
+## 🧪 Desenvolvimento local
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/SEU_USUARIO/advpl-error-helper
+cd advpl-error-helper
+
+# 2. Instale as dependências
+npm install
+
+# 3. Compile a extensão
+npm run compile
+
+# 4. Abra o projeto no VSCode
+code .
+
+# 5. Pressione F5 para abrir uma nova janela com a extensão em modo de teste
+```
+
+---
+
+## 💡 Atalho rápido
+
+Você também pode ativar via `Ctrl+Shift+P` → `Buscar Solução ADVPL`.
+
+---
+
+## 🛠 Requisitos
 
 - Node.js instalado
 - VSCode instalado
 
-## Comandos para rodar o projeto
+---
 
-```bash
-# 1. Instale dependências
-npm install
+## 📮 Sugestões ou bugs?
 
-# 2. Compile o projeto
-npm run compile
+Abra uma issue no GitHub ou envie uma PR com melhorias!  
+Contribuições são muito bem-vindas 💜
 
-# 3. Rode o VSCode para testes (isso abre uma nova janela do VSCode com sua extensão carregada)
-code .
+---
 
-# 4. Pressione F5 para abrir uma janela de teste (Extension Development Host)
-```
+## 🧑‍💻 Autor
 
-## Atalho
-Selecione qualquer erro no código ADVPL e chame: `Buscar Solução ADVPL`
+[Kleyson Gomes](https://github.com/kleysonr) • Desenvolvedor Full Stack especialista em ADVPL / TOTVS
