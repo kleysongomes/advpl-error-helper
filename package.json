@@ -3,6 +3,12 @@
   "displayName": "ADVPL Error Helper",
   "description": "Busca soluções para erros ADVPL nos fóruns da TOTVS e Google.",
   "version": "0.0.1",
+  "publisher": "kleysongomes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleysongomes/advpl-error-helper.git"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.88.0"
   },
