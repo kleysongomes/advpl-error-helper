@@ -28,18 +28,18 @@ Com apenas um comando, a extensão sugere onde buscar respostas em fontes confi�
 Você pode instalar diretamente via VSCode:
 
 ```bash
-ext install kleysondev.advpl-error-helper
+ext install kleysongomes.advpl-error-helper
 ```
 
 Ou procurar na aba de extensões por: **ADVPL Error Helper**
 
 ---
 
-## 🧪 Desenvolvimento local
+## 🧪 Desenvolvimento local(Contribua com o projeto)
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/advpl-error-helper
+git clone https://github.com/kleysongomes/advpl-error-helper
 cd advpl-error-helper
 
 # 2. Instale as dependências
@@ -78,4 +78,4 @@ Contribuições são muito bem-vindas 💜
 
 ## 🧑‍💻 Autor
 
-[Kleyson Gomes](https://github.com/kleysonr) • Desenvolvedor Full Stack especialista em ADVPL / TOTVS
+[Kleyson Gomes](https://github.com/kleysongomes) • Desenvolvedor Full Stack especialista em ADVPL / TOTVS
